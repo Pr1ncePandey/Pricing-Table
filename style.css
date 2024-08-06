@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(253, 252, 250);
+    background-color: rgb(194, 221, 245);
 }
 
 .pricing-container {
@@ -13,12 +13,13 @@ body {
 
 .pricing-plan {
     flex: 1;
-    background-color: #ffffff;
+    background-color: #899ede;
     border-radius: 20px;
     max-width: 300px;
     min-width: 310px;
     padding: 20px;
     text-align: center;
+    box-shadow: 0px 4px 9px 6px rgb(107, 105, 105);
 }
 
 .plan-title {
@@ -66,13 +67,19 @@ body {
 }
 
 .pricing-plan:hover {
-    background-color: rgb(16, 16, 111);
+    background-color: rgb(87, 87, 194);
     color: white;
 }
 
-@media (max-width: 1250px) {
+@media (min-width: 320px) and (max-width: 1286px) {
     .pricing-container {
       flex-direction: column;
-      height: 100vh;
+      height: auto;
+    }
+    .pricing-plan {
+        max-width: 60%;
+        min-width: 320px;
+        height: 50opx;
+        margin-block: 50px;
     }
 }
