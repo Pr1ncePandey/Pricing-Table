@@ -1,6 +1,9 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(194, 221, 245);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #CAF4FF;
 }
 
 .pricing-container {
@@ -13,7 +16,7 @@ body {
 
 .pricing-plan {
     flex: 1;
-    background-color: #899ede;
+    background-color: #A3D8FF;
     border-radius: 20px;
     max-width: 300px;
     min-width: 310px;
@@ -59,7 +62,7 @@ body {
 .plan-button {
     padding: 10px;
     width: 100%;
-    background-color: #4a7cf0;
+    background-color: #5AB2FF;
     color: #fffcfc;
     border-radius: 50px;
     border: none;
@@ -67,19 +70,47 @@ body {
 }
 
 .pricing-plan:hover {
-    background-color: rgb(87, 87, 194);
-    color: white;
+    background-color: #A0DEFF;
+    
 }
 
 @media (min-width: 320px) and (max-width: 1286px) {
     .pricing-container {
       flex-direction: column;
-      height: auto;
     }
     .pricing-plan {
-        max-width: 60%;
-        min-width: 320px;
-        height: 50opx;
+        max-width: 320px;
+        min-width: 500px;
+        height: 1000px;
         margin-block: 50px;
+    }
+    .plan-title {
+        font-size: 32px;
+    }
+    .plan-price {
+        font-size: 80px;
+    }
+    
+    .price-detail{
+        font-size: 28px;
+    }
+    
+    .plan-features {
+        font-size: 24px;
+    }
+    
+    .plan-features li {
+        margin-bottom: 10px;
+        text-align: left;
+        padding-left: 100px;
+    }
+    
+    .plan-button {
+        font-size: large;
+        padding: 10px;
+        width: 40%;
+        background-color: #5AB2FF;
+        color: #fffcfc;
+        border-radius: 50px;
     }
 }
