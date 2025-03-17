@@ -4,51 +4,102 @@
     <title>Pricing Table</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-    <div class="pricing-container">
-      <div class="pricing-plan">
-        <div class="plan-title">BASIC</div>
-        <div class="plan-price">$49</div>
-        <div class="price-detail">1 WEBSITE/MONTH</div>
-        <ul class="plan-features">
-          <li>✅ Plugin Updates</li>
-          <li>✅ 20 Templates</li>
-          <li>✅ 5 Field Types</li>
-          <li>🚫 Pro Actions</li>
-          <li>🚫 Extend with Add-Ons</li>
-          <li>🚫 Professional Support</li>
-        </ul>
-        <button class="plan-button">Buy now</button>
-      </div>
-      <div class="pricing-plan">
-        <div class="plan-title">STANDARD</div>
-        <div class="plan-price">$99</div>
-        <div class="price-detail">10 WEBSITE/MONTH</div>
-        <ul class="plan-features">
-          <li>✅ Plugin Updates</li>
-          <li>✅ 80 Templates</li>
-          <li>✅ 20 Field Types</li>
-          <li>✅ Pro Actions</li>
-          <li>🚫 Extend with Add-Ons</li>
-          <li>🚫 Professional Support</li>
-        </ul>
-        <button class="plan-button">Buy now</button>
-      </div>
-      <div class="pricing-plan">
-        <div class="plan-title">PREMIUM</div>
-        <div class="plan-price">$299</div>
-        <div class="price-detail">100 WEBSITE/MONTH</div>
-        <ul class="plan-features">
-          <li>✅ Plugin Updates</li>
-          <li>✅ 100+ Templates</li>
-          <li>✅ 55+ Field Types</li>
-          <li>✅ Pro Actions</li>
-          <li>✅ Extend with Add-Ons</li>
-          <li>✅ Professional Support</li>
-        </ul>
-        <button class="plan-button">Buy now</button>
+    <div class="container">
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+        <img src="umbrella-fill.svg" style="width: 24px; height: 24px;" alt="logo">
+        <span class="fs-4">Umbrella Academy</span>
+      </a>
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">About</a>
+        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Enterprise</a>
+        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Support</a>
+        <a class="py-2 link-body-emphasis text-decoration-none" href="#">Contact Us</a>
+      </nav>
+    </div>
+  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img src="pricing-img.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Build Your Company With Us.</h1>
+      <p class="lead">With our services build your startup with ease and publish them to the world. Get started by signing up with a free plan and upgrade to other plans later for exclusive features.</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Sign Up</button>
+        <button type="button" class="btn btn-outline-success btn-lg px-4">Contact Us</button>
       </div>
     </div>
+  </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-bg-dark">
+            <h4 class="my-0 fw-normal">Free</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>10 users included</li>
+              <li>2 GB of storage</li>
+              <li>Email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-bg-dark"> 
+            <h4 class="my-0 fw-normal">Standard</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>20 users included</li>
+              <li>10 GB of storage</li>
+              <li>Priority email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-bg-dark border-light">
+            <h4 class="my-0 fw-normal">Premium</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>30 users included</li>
+              <li>15 GB of storage</li>
+              <li>Phone and email support</li>
+              <li>Help center access</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary" href="#"><img src="twitter-x.svg" alt="twitter-x"></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><img src="instagram.svg" alt="instagram"></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="#"><img src="linkedin.svg" alt="linkedin"></a></li>
+      </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
